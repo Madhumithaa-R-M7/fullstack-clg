@@ -1,0 +1,37 @@
+
+@keyframes slide-in{
+        0%{
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(90%);
+        }
+}
+h2{
+  
+    color: rgb(124, 84, 224); 
+    text-align: center; 
+    font-family: "Gabriela", serif;
+    padding-top: 10%;
+    font-weight: 400; 
+    border-color: rgb(6, 244, 244);
+    animation-duration:1m;
+    font-size: 70px;
+    text-shadow: rgba(246, 16, 215, 0.663) 2px 2px 2px;
+    animation: slide-in 2s ease-in-out;
+  
+  }
+
+.jay{
+    padding-top: 0%;
+    background-origin: content-box;
+    padding-left: 10%;
+    
+}
+
+.jeon{ 
+background-image: url("https://i.pinimg.com/originals/7e/65/14/7e65147a2127188043c3317be9255856.jpg");
+background-size: cover;
+height: 100vh;
+
+}
